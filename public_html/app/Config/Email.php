@@ -25,7 +25,7 @@ class Email extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $userAgent = 'CodeIgniter';
+	public $userAgent = 'no-reply';
 
 	/**
 	 * The mail sending protocol: mail, sendmail, smtp
@@ -63,7 +63,7 @@ class Email extends BaseConfig
 	 * @var string
 	 */
 	// Enter your email's password
-	public $SMTPPass = '9@SdK3e2V';
+	public $SMTPPass = 'Ev1mc,Evo7';
 
 	/**
 	 * SMTP Port
@@ -84,14 +84,14 @@ class Email extends BaseConfig
 	 *
 	 * @var boolean
 	 */
-	public $SMTPKeepAlive = false;
+	public $SMTPKeepAlive = true;
 
 	/**
 	 * SMTP Encryption. Either tls or ssl
 	 *
 	 * @var string
 	 */
-	public $SMTPCrypto = 'tls';
+	public $SMTPCrypto = 'ssl';
 
 	/**
 	 * Enable word-wrap
@@ -133,7 +133,7 @@ class Email extends BaseConfig
 	 *
 	 * @var integer
 	 */
-	public $priority = 3;
+	public $priority = 31;
 
 	/**
 	 * Newline character. (Use “\r\n” to comply with RFC 822)

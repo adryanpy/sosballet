@@ -39,6 +39,8 @@ $routes->add('/auth/cadastro', 'AuthController::register');
 $routes->add('/auth/entrar', 'AuthController::login');
 $routes->add('/auth/sair', 'AuthController::logout');
 $routes->add('/auth/esqueci-senha', 'AuthController::forget');
+$routes->add('/auth/redefinir/(:any)', 'AuthController::reset/$1');
+$routes->add('/auth/redefinir', 'AuthController::reset');
 
 //Rotas da plataforma
 

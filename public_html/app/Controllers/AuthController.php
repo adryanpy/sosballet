@@ -85,28 +85,80 @@ class AuthController extends BaseController
 			$user = $this->usermdl->where('email', $receiver)->first();
 
 			if ($user != NULL) {
-				print_r($_POST);
+
 				$corpo = "seu email é $receiver";   
-			
-				$email = \Config\Services::email();
-
-				$email->setTo($receiver);
-				$email->setFrom('no-reply@sosballet.com.br', 'Confirmação de cadastro');
 				
-				$email->setSubject("Confirmação de cadastro");
-				$codigo = rand() % 9000 + 1000;
-				$email->setMessage("Seu código de confirmação de email é: ".$codigo);
+				ini_set( 'display_errors', 1 );
 
-				if ($email->send()){
-					$data = $email->printDebugger();
-					print_r($data);
-				}
-				else{
-					$data = $email->printDebugger();
-					print_r($data);
-				}
+    			error_reporting( E_ALL );
+				$from = "no-reply@sosballet.com.br";
+				$to = $receiver;
+				$subject = "Redefinir Senha";
+                
+                if(!$this->session->get("confirmation_code")){
+                    $codigo = $this->session->get("confirmation_code");
+                }else{
+    				$codigo = password_hash(rand() % 9000 + 1000, PASSWORD_DEFAULT);
+    				$this->session->set("confrimation_code", "https://sosballet.com.br/auth/redefinir/".$codigo);
+                }
+
+				$html = fopen("../writable/uploads/mail.html", "r") or die("Unable to open file!");
+				$data = fread($html,filesize("../writable/uploads/mail.html"));
+				
+				$content = str_replace("VERIFICATION_CODE", "<a href='https://sosballet.com.br/auth/redefinir/".$codigo."> Redefinir </a>", $data);
+				$content = str_replace("DATE_NOW", date("d/m/Y"), $content);
+							
+				$headers = "From:" . $from . "\r\n";
+				$headers .= "MIME-Version: 1.0\r\n";
+				$headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+
+				mail($to,$subject,$content, $headers);
+
+				$data['token'] = $codigo;
+				$data['token_date'] = date("Y-m-d h:i:sa");
+
+				$user = $this->usermdl->where("email", $to)->first();
+
+				$this->usermdl->update($user->user_id, $data);
+
+				return view('website/auth/forget_message');
 			}
 		}
 		return view('website/auth/forget');
 	}
+
+	public function reset($token="")
+	{	
+
+		$user = $this->usermdl->where("token", $token)->first();
+		
+		if(!$user){
+			return redirect()->to('/auth/entrar');
+		}
+
+		if ($this->request->getMethod() === 'post' and $this->authmdl->verify() != -1) {
+			
+			$data['passwd'] = password_hash($this->request->getPost('passwd'), PASSWORD_BCRYPT);		
+			$data['token'] = "";
+
+			$this->usermdl->update($this->session->get('user_id'), $data);
+			return redirect()->to('/auth/entrar');
+			
+		}
+
+		if(intval(date_sub(date("Y-m-d h:i:sa"), $user->token_date )) < 1 ){
+
+			$session_data = [
+				'user_id'  => $user->user_id,
+				'auth' => TRUE
+			];
+			
+			$this->session->set($session_data);
+
+			return view('website/auth/reset');
+		}
+		
+		return redirect()->to('/auth/entrar');
+	}
+
 }

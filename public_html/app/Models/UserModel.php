@@ -16,6 +16,8 @@ class UserModel extends Model
 		'name',
 		'last_name',
 		'user_type',
+		'token',
+		'token_date'
 	];
 	protected $returnType = 'object';
 }

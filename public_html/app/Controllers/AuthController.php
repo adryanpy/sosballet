@@ -121,7 +121,7 @@ class AuthController extends BaseController
 
 				$this->usermdl->update($user->user_id, $data);
 
-				return view('website/auth/forget_message');
+				return view('website/auth/forget');
 			}
 		}
 		return view('website/auth/forget');

@@ -1,0 +1,364 @@
+CRITICAL - 2020-09-29 13:59:58 --> Undefined property: App\Controllers\UserController::$user
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->edit('8')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 14:57:04 --> Undefined variable: edit_user
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\platform\users\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Views\platform\index.php(217): view('platform/users/...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#6 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(64): view('platform/index', Array)
+#7 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->edit('8')
+#8 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-29 14:57:15 --> Undefined variable: edit_user
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\platform\users\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Views\platform\index.php(217): view('platform/users/...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#6 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(64): view('platform/index', Array)
+#7 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->edit('8')
+#8 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-29 14:57:24 --> Undefined variable: edit_user
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\platform\users\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Views\platform\index.php(217): view('platform/users/...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#6 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(64): view('platform/index', Array)
+#7 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->edit('8')
+#8 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-29 14:59:21 --> Undefined variable: edit_user
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\platform\users\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Views\platform\index.php(217): view('platform/users/...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#6 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(64): view('platform/index', Array)
+#7 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->edit('8')
+#8 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-29 15:07:37 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(85): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->create()
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-29 15:08:53 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(86): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->create()
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-29 15:09:33 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(86): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->create()
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-29 15:10:02 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(86): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->create()
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-29 15:11:41 --> Trying to get property 'name' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\platform\users\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Views\platform\index.php(217): view('platform/users/...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#6 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(64): view('platform/index', Array)
+#7 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->edit('13')
+#8 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-29 15:11:45 --> Trying to get property 'name' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\platform\users\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Views\platform\index.php(217): view('platform/users/...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#6 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(64): view('platform/index', Array)
+#7 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->edit('13')
+#8 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-29 15:12:03 --> Trying to get property 'name' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\platform\users\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Views\platform\index.php(217): view('platform/users/...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#6 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(64): view('platform/index', Array)
+#7 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->edit('14')
+#8 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-29 15:14:58 --> Trying to get property 'name' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\platform\users\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Views\platform\index.php(217): view('platform/users/...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#6 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(64): view('platform/index', Array)
+#7 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->edit('15')
+#8 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-29 15:17:14 --> Trying to get property 'name' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\platform\users\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Views\platform\index.php(217): view('platform/users/...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#6 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(64): view('platform/index', Array)
+#7 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->edit('16')
+#8 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-29 15:17:53 --> Trying to get property 'name' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\platform\users\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Views\platform\index.php(217): view('platform/users/...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#6 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(64): view('platform/index', Array)
+#7 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->edit('16')
+#8 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-29 15:19:47 --> Trying to get property 'name' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\platform\users\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Views\platform\index.php(217): view('platform/users/...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#6 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(67): view('platform/index', Array)
+#7 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->edit('16')
+#8 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-29 15:21:00 --> Trying to get property 'name' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\platform\users\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Views\platform\index.php(217): view('platform/users/...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#6 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(67): view('platform/index', Array)
+#7 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->edit('17')
+#8 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-29 15:23:10 --> Trying to get property 'name' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\platform\users\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Views\platform\index.php(217): view('platform/users/...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('platform/users/...', Array, true)
+#6 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(67): view('platform/index', Array)
+#7 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->edit('17')
+#8 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-29 15:45:27 --> Trying to get property 'user_type' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\PlatformController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\PlatformController->__construct()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 15:46:31 --> Trying to get property 'user_type' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\PlatformController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\PlatformController->__construct()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 15:48:18 --> Trying to get property 'name' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\index.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/home/ma...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 15:49:19 --> Trying to get property 'name' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\index.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/home/ma...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 15:55:17 --> Call to undefined function App\Controllers\typeof()
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\PlatformController->__construct()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-29 15:55:41 --> Call to undefined function App\Controllers\typeOf()
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\PlatformController->__construct()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-29 15:55:42 --> Call to undefined function App\Controllers\typeOf()
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\PlatformController->__construct()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-29 16:01:01 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\PlatformController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\PlatformController->__construct()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 16:32:34 --> Undefined property: App\Controllers\UserController::$data
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 16:34:34 --> Undefined property: App\Controllers\UserController::$session
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 16:34:35 --> Undefined property: App\Controllers\UserController::$session
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 16:34:36 --> Undefined property: App\Controllers\UserController::$session
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 16:34:37 --> Undefined property: App\Controllers\UserController::$session
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 16:34:44 --> Undefined property: App\Controllers\UserController::$data
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 16:34:44 --> Undefined property: App\Controllers\UserController::$data
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 16:42:46 --> Undefined property: App\Controllers\UserController::$data
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 16:43:47 --> Undefined property: App\Controllers\UserController::$session
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 16:43:48 --> Undefined property: App\Controllers\UserController::$session
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 17:15:10 --> Trying to get property 'user_type' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\UserController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-29 17:16:09 --> Trying to get property 'user_type' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/home/ma...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-29 17:17:48 --> Trying to get property 'user_type' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/home/ma...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

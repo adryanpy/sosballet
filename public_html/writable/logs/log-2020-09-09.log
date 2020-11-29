@@ -1,0 +1,355 @@
+CRITICAL - 2020-09-09 10:02:59 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('LoginController')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('LoginController')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 10:04:21 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('LoginController')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('LoginController')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 10:04:22 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('LoginController')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('LoginController')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 10:04:30 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('LoginController')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('LoginController')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 10:04:58 --> Undefined property: App\Controllers\LoginController::$load
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->index()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 10:06:03 --> Call to undefined method App\Controllers\LoginController::view()
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->index()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-09 10:06:04 --> Call to undefined method App\Controllers\LoginController::view()
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->index()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-09 10:06:04 --> Call to undefined method App\Controllers\LoginController::view()
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->index()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-09 10:06:05 --> Call to undefined method App\Controllers\LoginController::view()
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->index()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-09 10:06:05 --> Call to undefined method App\Controllers\LoginController::view()
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->index()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-09 10:06:05 --> Call to undefined method App\Controllers\LoginController::view()
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->index()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-09 10:06:05 --> Call to undefined method App\Controllers\LoginController::view()
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->index()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-09 10:06:06 --> Call to undefined method App\Controllers\LoginController::view()
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->index()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-09 10:06:06 --> Call to undefined method App\Controllers\LoginController::view()
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->index()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-09 10:06:15 --> Call to undefined method App\Controllers\LoginController::view()
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->index()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-09 10:06:16 --> Call to undefined method App\Controllers\LoginController::view()
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->index()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-09 10:06:17 --> Call to undefined method App\Controllers\LoginController::view()
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->index()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-09 10:20:29 --> Undefined property: App\Controllers\LoginController::$login_model
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 10:20:43 --> Undefined property: App\Controllers\LoginController::$loginmodel
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 10:21:00 --> Undefined property: App\Controllers\LoginController::$LoginModel
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 10:21:13 --> Undefined property: App\Controllers\LoginController::$LoginModel
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 10:22:07 --> Undefined property: App\Controllers\LoginController::$Login_Model
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 10:24:49 --> Undefined property: App\Controllers\LoginController::$Login_Model
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 10:25:13 --> Undefined property: App\Controllers\LoginController::$load
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 10:26:19 --> Class 'App\Controllers\CI_Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-09 10:26:31 --> Class 'App\Controllers\Ci_Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-09 10:27:10 --> Undefined property: App\Controllers\LoginController::$load
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 10:41:10 --> Class 'CI_model' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-09 10:41:47 --> Class 'Model' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-09 10:42:00 --> Class 'UserModel' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-09 10:43:08 --> Undefined property: App\Controllers\LoginController::$Login_Model
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 10:43:37 --> Undefined property: App\Controllers\LoginController::$userModel
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 10:44:49 --> Undefined property: App\Controllers\LoginController::$Login_Model
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 10:54:17 --> Undefined property: App\Controllers\LoginController::$Login_Model
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 10:54:33 --> Undefined property: App\Controllers\LoginController::$Login_Model
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 10:55:49 --> Undefined property: App\Controllers\LoginController::$Login_Model
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 11:17:11 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('LoginController...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('LoginController...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 11:18:27 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('LoginController...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('LoginController...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 11:18:29 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('LoginController...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('LoginController...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 11:18:31 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('LoginController...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('LoginController...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 11:18:50 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('LoginController...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('LoginController...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 11:19:00 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('LoginController...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('LoginController...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 11:20:11 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('LoginController...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('LoginController...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 11:20:29 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 11:20:47 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 11:20:58 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 11:21:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':login: AND senha LIKE :senha:' at line 1
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT Nome FRO...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Nome FRO...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Nome FRO...')
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(35): CodeIgniter\Database\BaseConnection->query('SELECT Nome FRO...', Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-09 11:21:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':login: AND senha LIKE :senha:' at line 2
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT Nome FRO...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Nome FRO...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Nome FRO...')
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(35): CodeIgniter\Database\BaseConnection->query('SELECT Nome FRO...', Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-09 11:22:29 --> Undefined variable: email
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\LoginController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 11:22:29 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\localhost\public_html\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\localhost\public_html\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-09 11:23:40 --> Cannot use object of type CodeIgniter\Database\MySQLi\Connection as array
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LoginController->login()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-09 11:46:26 --> syntax error, unexpected '$LoginModel' (T_VARIABLE), expecting ';' or '{'
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('LoginController...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('LoginController...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 11:46:34 --> syntax error, unexpected '$LoginModel' (T_VARIABLE), expecting ';' or '{'
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('LoginController')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('LoginController')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 11:58:31 --> syntax error, unexpected '$LoginModel' (T_VARIABLE), expecting ';' or '{'
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('LoginController')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('LoginController')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

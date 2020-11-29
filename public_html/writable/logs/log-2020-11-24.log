@@ -1,0 +1,73 @@
+CRITICAL - 2020-11-24 23:29:19 --> Undefined variable: subjetct
+#0 /home/u720570325/domains/sosballet.com.br/app/Controllers/AuthController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u72057032...', 91, Array)
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\AuthController->forget()
+#2 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-24 23:39:43 --> Undefined variable: subjetct
+#0 /home/u720570325/domains/sosballet.com.br/app/Controllers/AuthController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u72057032...', 91, Array)
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\AuthController->forget()
+#2 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-24 23:40:13 --> Undefined variable: message
+#0 /home/u720570325/domains/sosballet.com.br/app/Controllers/AuthController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u72057032...', 93, Array)
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\AuthController->forget()
+#2 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-24 23:41:06 --> mail(): Found numeric header (0)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Found n...', '/home/u72057032...', 93, Array)
+#1 /home/u720570325/domains/sosballet.com.br/app/Controllers/AuthController.php(93): mail('', 'Teste', 'seu email \xC3\xA9 ', Array)
+#2 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\AuthController->forget()
+#3 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-24 23:44:42 --> mail(): Found numeric header (0)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Found n...', '/home/u72057032...', 93, Array)
+#1 /home/u720570325/domains/sosballet.com.br/app/Controllers/AuthController.php(93): mail('', 'Teste', 'seu email \xC3\xA9 ', Array)
+#2 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\AuthController->forget()
+#3 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-24 23:45:06 --> Invalid file: erro.php
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('erro.php')
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('erro', Array, true)
+#2 /home/u720570325/domains/sosballet.com.br/app/Controllers/AuthController.php(98): view('erro')
+#3 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\AuthController->forget()
+#4 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-24 23:49:33 --> Invalid file: erro.php
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('erro.php')
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('erro', Array, true)
+#2 /home/u720570325/domains/sosballet.com.br/app/Controllers/AuthController.php(105): view('erro')
+#3 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\AuthController->forget()
+#4 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-24 23:52:12 --> Invalid file: error_404.php
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_404.php')
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('error_404', Array, true)
+#2 /home/u720570325/domains/sosballet.com.br/app/Controllers/AuthController.php(105): view('error_404')
+#3 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\AuthController->forget()
+#4 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-24 23:58:57 --> Invalid file: error_404.php
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_404.php')
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('error_404.php', Array, true)
+#2 /home/u720570325/domains/sosballet.com.br/app/Controllers/AuthController.php(106): view('error_404.php')
+#3 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\AuthController->forget()
+#4 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

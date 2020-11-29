@@ -1,0 +1,225 @@
+CRITICAL - 2020-09-25 00:08:57 --> Invalid file: website/index.php
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/index.p...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/index', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-25 00:08:59 --> Invalid file: website/index.php
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/index.p...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/index', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-25 00:09:00 --> Invalid file: website/index.php
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/index.p...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/index', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-25 00:09:20 --> Invalid file: website/index.php
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/index.p...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/index', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-25 00:09:21 --> Invalid file: website/index.php
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/index.p...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/index', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-25 00:09:22 --> Invalid file: website/index.php
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/index.p...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/index', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-25 00:09:22 --> Invalid file: website/index.php
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/index.p...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/index', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-25 00:09:22 --> Invalid file: website/index.php
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/index.p...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/index', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-25 00:09:22 --> Invalid file: website/index.php
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/index.p...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/index', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-25 00:09:22 --> Invalid file: website/index.php
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/index.p...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/index', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-25 00:09:23 --> Invalid file: website/index.php
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/index.p...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/index', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-25 00:10:51 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\AuthController.php(28): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\AuthController->register()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-25 00:10:52 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\localhost\public_html\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\localhost\public_html\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\AuthController), true)
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-25 00:11:28 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\AuthController.php(28): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\AuthController->register()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-25 00:11:28 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\localhost\public_html\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\localhost\public_html\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\AuthController), true)
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-25 00:13:14 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\AuthController.php(27): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\AuthController->register()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-25 00:13:14 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\localhost\public_html\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\localhost\public_html\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\AuthController), true)
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-25 00:20:40 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\AuthController.php(27): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\AuthController->register()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-25 00:20:40 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\localhost\public_html\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\localhost\public_html\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\AuthController), true)
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-25 16:50:27 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\AuthController.php(27): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\AuthController->register()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-25 16:50:27 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\localhost\public_html\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\localhost\public_html\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\AuthController), true)
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-25 22:55:42 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\AuthController.php(27): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\AuthController->register()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-25 22:55:42 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\localhost\public_html\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\localhost\public_html\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\AuthController), true)
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

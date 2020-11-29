@@ -1,0 +1,153 @@
+CRITICAL - 2020-11-25 09:03:25 --> Undefined variable: events
+#0 /var/www/domains/sosballet.local/public_html/app/Views/website/calendar/calendar.php(297): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/domains/sosballet.local/public_html/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/domain...')
+#2 /var/www/domains/sosballet.local/public_html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/domains/sosballet.local/public_html/app/Controllers/CalendarController.php(25): view()
+#4 /var/www/domains/sosballet.local/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#5 /var/www/domains/sosballet.local/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/domains/sosballet.local/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/domains/sosballet.local/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-25 15:54:35 --> Column 'backgroundColor' cannot be null
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ev...')
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ev...')
+#2 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ev...')
+#3 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ev...', Array, false)
+#4 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u720570325/domains/sosballet.com.br/app/Controllers/CalendarController.php(60): CodeIgniter\Model->insert(Array)
+#6 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\CalendarController->criar()
+#7 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#8 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-25 16:01:45 --> syntax error, unexpected end of file
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-11-25 16:03:38 --> syntax error, unexpected end of file
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-11-25 16:07:01 --> syntax error, unexpected end of file
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-11-25 16:09:43 --> syntax error, unexpected end of file
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-11-25 16:09:45 --> syntax error, unexpected end of file
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-11-25 16:10:03 --> syntax error, unexpected end of file
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-11-25 16:27:30 --> Invalid file: erro.php
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('erro.php')
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('erro', Array, true)
+#2 /home/u720570325/domains/sosballet.com.br/app/Controllers/AuthController.php(104): view('erro')
+#3 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\AuthController->forget()
+#4 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-25 16:46:42 --> syntax error, unexpected end of file
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/u72057032...')
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-25 16:46:57 --> syntax error, unexpected end of file
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/u72057032...')
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-25 16:46:59 --> syntax error, unexpected end of file
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/u72057032...')
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-25 16:48:00 --> syntax error, unexpected end of file, expecting ',' or ';'
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/u72057032...')
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Email')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Email')
+#3 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Config/Services.php(225): spl_autoload_call('Config\\Email')
+#4 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::email(NULL, false)
+#5 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Config/Services.php(221): CodeIgniter\Config\BaseService::getSharedInstance('email', NULL)
+#6 /home/u720570325/domains/sosballet.com.br/app/Controllers/AuthController.php(91): CodeIgniter\Config\Services::email()
+#7 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\AuthController->forget()
+#8 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-11-25 16:48:02 --> syntax error, unexpected end of file, expecting ',' or ';'
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/u72057032...')
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Email')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Email')
+#3 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Config/Services.php(225): spl_autoload_call('Config\\Email')
+#4 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::email(NULL, false)
+#5 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Config/Services.php(221): CodeIgniter\Config\BaseService::getSharedInstance('email', NULL)
+#6 /home/u720570325/domains/sosballet.com.br/app/Controllers/AuthController.php(91): CodeIgniter\Config\Services::email()
+#7 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\AuthController->forget()
+#8 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-11-25 16:48:04 --> syntax error, unexpected end of file, expecting ',' or ';'
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/u72057032...')
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Email')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Email')
+#3 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Config/Services.php(225): spl_autoload_call('Config\\Email')
+#4 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::email(NULL, false)
+#5 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Config/Services.php(221): CodeIgniter\Config\BaseService::getSharedInstance('email', NULL)
+#6 /home/u720570325/domains/sosballet.com.br/app/Controllers/AuthController.php(91): CodeIgniter\Config\Services::email()
+#7 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\AuthController->forget()
+#8 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-11-25 18:11:21 --> unlink(/home/u720570325/domains/sosballet.com.br/writable/debugbar/debugbar_1606349384.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/u7...', '/home/u72057032...', 106, Array)
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/History.php(106): unlink('/home/u72057032...')
+#2 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1606349481, 20)
+#3 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Debug/Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/u720570325/domains/sosballet.com.br/app/Config/Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Events/Events.php(188): call_user_func(Object(Closure))
+#7 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#8 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-25 20:27:37 --> Column 'backgroundColor' cannot be null
+#0 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ev...')
+#1 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ev...')
+#2 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ev...')
+#3 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ev...', Array, false)
+#4 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u720570325/domains/sosballet.com.br/app/Controllers/CalendarController.php(60): CodeIgniter\Model->insert(Array)
+#6 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\CalendarController->criar()
+#7 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#8 /home/u720570325/domains/sosballet.com.br/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u720570325/domains/sosballet.com.br/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

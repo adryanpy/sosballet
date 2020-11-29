@@ -1,0 +1,138 @@
+CRITICAL - 2020-09-07 12:27:20 --> syntax error, unexpected '<', expecting end of file
+#0 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('aula.php', Array, true)
+#1 C:\xampp2\htdocs\cilujuravita\app\Controllers\Main.php(34): view('aula.php')
+#2 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Main->index()
+#3 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp2\htdocs\cilujuravita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-07 12:28:29 --> Undefined variable: nameErr
+#0 C:\xampp2\htdocs\cilujuravita\app\Views\aula.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 14, Array)
+#1 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('aula.php', Array, true)
+#3 C:\xampp2\htdocs\cilujuravita\app\Controllers\Main.php(34): view('aula.php')
+#4 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Main->index()
+#5 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#6 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\cilujuravita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-07 12:28:30 --> Undefined variable: nameErr
+#0 C:\xampp2\htdocs\cilujuravita\app\Views\aula.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 14, Array)
+#1 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('aula.php', Array, true)
+#3 C:\xampp2\htdocs\cilujuravita\app\Controllers\Main.php(34): view('aula.php')
+#4 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Main->index()
+#5 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#6 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\cilujuravita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-07 12:28:45 --> Undefined variable: genderErr
+#0 C:\xampp2\htdocs\cilujuravita\app\Views\aula.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 30, Array)
+#1 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('aula.php', Array, true)
+#3 C:\xampp2\htdocs\cilujuravita\app\Controllers\Main.php(34): view('aula.php')
+#4 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Main->index()
+#5 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#6 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\cilujuravita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-07 12:28:45 --> Undefined variable: genderErr
+#0 C:\xampp2\htdocs\cilujuravita\app\Views\aula.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 30, Array)
+#1 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('aula.php', Array, true)
+#3 C:\xampp2\htdocs\cilujuravita\app\Controllers\Main.php(34): view('aula.php')
+#4 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Main->index()
+#5 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#6 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\cilujuravita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-07 12:28:46 --> Undefined variable: genderErr
+#0 C:\xampp2\htdocs\cilujuravita\app\Views\aula.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 30, Array)
+#1 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('aula.php', Array, true)
+#3 C:\xampp2\htdocs\cilujuravita\app\Controllers\Main.php(34): view('aula.php')
+#4 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Main->index()
+#5 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#6 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\cilujuravita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-07 12:28:46 --> Undefined variable: genderErr
+#0 C:\xampp2\htdocs\cilujuravita\app\Views\aula.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 30, Array)
+#1 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('aula.php', Array, true)
+#3 C:\xampp2\htdocs\cilujuravita\app\Controllers\Main.php(34): view('aula.php')
+#4 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Main->index()
+#5 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#6 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\cilujuravita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-07 13:09:49 --> Undefined index: N
+#0 C:\xampp2\htdocs\cilujuravita\app\Controllers\Resposta.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp2\\htdoc...', 4, Array)
+#1 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Router\Router.php(583): include_once('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Resposta')
+#3 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Resposta')
+#4 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\cilujuravita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-07 13:10:37 --> Undefined index: Newton
+#0 C:\xampp2\htdocs\cilujuravita\app\Controllers\Resposta.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp2\\htdoc...', 4, Array)
+#1 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Router\Router.php(583): include_once('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Resposta')
+#3 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Resposta')
+#4 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\cilujuravita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-07 13:11:08 --> Undefined index: Newton
+#0 C:\xampp2\htdocs\cilujuravita\app\Controllers\Resposta.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp2\\htdoc...', 4, Array)
+#1 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Router\Router.php(583): include_once('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Resposta')
+#3 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Resposta')
+#4 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\cilujuravita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-07 13:11:55 --> Undefined index: Newton
+#0 C:\xampp2\htdocs\cilujuravita\app\Controllers\Resposta.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp2\\htdoc...', 4, Array)
+#1 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Router\Router.php(583): include_once('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Resposta')
+#3 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Resposta')
+#4 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\cilujuravita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-07 13:12:37 --> Undefined index: newton
+#0 C:\xampp2\htdocs\cilujuravita\app\Controllers\Resposta.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp2\\htdoc...', 4, Array)
+#1 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Router\Router.php(583): include_once('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Resposta')
+#3 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Resposta')
+#4 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\cilujuravita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-07 13:12:54 --> Undefined index: aceleracao
+#0 C:\xampp2\htdocs\cilujuravita\app\Controllers\Resposta.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp2\\htdoc...', 5, Array)
+#1 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Router\Router.php(583): include_once('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Resposta')
+#3 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Resposta')
+#4 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\cilujuravita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-07 13:13:11 --> Undefined index: aceleracao
+#0 C:\xampp2\htdocs\cilujuravita\app\Controllers\Resposta.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp2\\htdoc...', 5, Array)
+#1 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Router\Router.php(583): include_once('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Resposta')
+#3 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Resposta')
+#4 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\cilujuravita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-07 13:15:01 --> Undefined index: aceleracao
+#0 C:\xampp2\htdocs\cilujuravita\app\Controllers\Resposta.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp2\\htdoc...', 13, Array)
+#1 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Resposta->index()
+#2 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resposta))
+#3 C:\xampp2\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\cilujuravita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

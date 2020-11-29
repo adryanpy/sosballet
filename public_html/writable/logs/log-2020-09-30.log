@@ -1,0 +1,439 @@
+CRITICAL - 2020-09-30 11:24:34 --> Trying to get property 'user_type' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/home/ma...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-30 12:16:58 --> Trying to get property 'user_type' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/profile...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(37): view('website/index', Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->profile()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-30 12:17:01 --> Trying to get property 'user_type' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/home/ma...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-30 12:20:41 --> Trying to get property 'user_type' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/home/ma...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-30 12:22:20 --> Trying to get property 'user_type' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/home/ma...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-30 12:42:46 --> Trying to get property 'user_type' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/home/ma...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-30 13:00:30 --> Trying to get property 'user_type' of non-object
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/home/ma...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\Home.php(26): view('website/index', Array)
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-30 13:03:48 --> Undefined variable: logged
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\study\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/study/i...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\StudyController.php(25): view('website/study/i...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\StudyController->index()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudyController))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-30 13:07:44 --> Undefined variable: logged
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\study\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/study/i...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\StudyController.php(26): view('website/study/i...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\StudyController->index()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudyController))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-30 13:24:15 --> Undefined variable: logged
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\study\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/study/i...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\StudyController.php(27): view('website/study/i...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\StudyController->index()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudyController))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-30 13:24:15 --> Undefined variable: logged
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\study\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/study/i...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\StudyController.php(27): view('website/study/i...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\StudyController->index()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudyController))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-30 13:24:16 --> Undefined variable: logged
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\study\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/study/i...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\StudyController.php(27): view('website/study/i...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\StudyController->index()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudyController))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-30 13:24:17 --> Undefined variable: logged
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\study\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/study/i...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\StudyController.php(27): view('website/study/i...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\StudyController->index()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudyController))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-30 13:24:17 --> Undefined variable: logged
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\study\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/study/i...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\StudyController.php(27): view('website/study/i...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\StudyController->index()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudyController))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-30 13:24:18 --> Undefined variable: logged
+#0 C:\xampp\htdocs\localhost\public_html\app\Views\website\study\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/study/i...', Array, true)
+#3 C:\xampp\htdocs\localhost\public_html\app\Controllers\StudyController.php(27): view('website/study/i...')
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\StudyController->index()
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudyController))
+#6 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-30 15:02:39 --> Undefined property: App\Controllers\CalendarController::$authmdl
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-30 15:02:40 --> Undefined property: App\Controllers\CalendarController::$authmdl
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-30 15:02:41 --> Undefined property: App\Controllers\CalendarController::$authmdl
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-30 15:02:42 --> Undefined property: App\Controllers\CalendarController::$authmdl
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-30 15:05:04 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type integer or null, array given, called in C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php on line 25
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php(25): CodeIgniter\HTTP\RedirectResponse->to('/calendario', Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-30 15:05:05 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type integer or null, array given, called in C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php on line 25
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php(25): CodeIgniter\HTTP\RedirectResponse->to('/calendario', Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-30 15:05:06 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type integer or null, array given, called in C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php on line 25
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php(25): CodeIgniter\HTTP\RedirectResponse->to('/calendario', Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-30 15:05:07 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type integer or null, array given, called in C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php on line 25
+#0 C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php(25): CodeIgniter\HTTP\RedirectResponse->to('/calendario', Array)
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#2 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-30 15:06:28 --> Invalid file: website/home/calendario.php
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/home/ca...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/home/ca...', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php(24): view('website/home/ca...', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-30 15:06:29 --> Invalid file: website/home/calendario.php
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/home/ca...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/home/ca...', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php(24): view('website/home/ca...', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-30 15:06:30 --> Invalid file: website/home/calendario.php
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/home/ca...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/home/ca...', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php(24): view('website/home/ca...', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-30 15:07:29 --> Invalid file: website/home/calendario.php
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/home/ca...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/home/ca...', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php(24): view('website/home/ca...', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-30 15:07:30 --> Invalid file: website/home/calendario.php
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/home/ca...')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('website/home/ca...', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php(24): view('website/home/ca...', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-30 15:07:46 --> Invalid file: /calendario.php
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/calendario.php')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('/calendario', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php(24): view('/calendario', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-30 15:07:47 --> Invalid file: /calendario.php
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/calendario.php')
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('/calendario', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php(24): view('/calendario', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-30 15:18:14 --> Call to undefined function montaCalendario()
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('/website/calend...', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php(24): view('/website/calend...', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-30 15:20:32 --> Call to undefined function montaCalendario()
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('/website/calend...', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php(24): view('/website/calend...', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-30 15:20:32 --> Call to undefined function montaCalendario()
+#0 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('/website/calend...', Array, true)
+#2 C:\xampp\htdocs\localhost\public_html\app\Controllers\CalendarController.php(24): view('/website/calend...', Array)
+#3 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\CalendarController->index()
+#4 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CalendarController))
+#5 C:\xampp\htdocs\localhost\public_html\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\localhost\public_html\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-30 15:47:24 --> Unable to connect to the database.
+#0 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Controllers/AuthController.php(27): CodeIgniter\Model->insert(Array)
+#4 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\AuthController->register()
+#5 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#6 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-30 15:47:24 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/u72057032...', 100, Array)
+#1 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\AuthController), true)
+#2 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/u72057032...')
+#3 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-30 15:57:15 --> Invalid file: platform/home/home.php
+#0 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('platform/home/h...')
+#1 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('platform/home/h...', Array, true)
+#2 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Views/platform/index.php(156): view('platform/home/h...')
+#3 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/u72057032...')
+#4 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('platform/home/h...', Array, true)
+#5 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Controllers/PlatformController.php(44): view('platform/index', Array)
+#6 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\PlatformController->index()
+#7 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlatformController))
+#8 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-30 15:57:40 --> Invalid file: platform/home/home.php
+#0 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('platform/home/h...')
+#1 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('platform/home/h...', Array, true)
+#2 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Views/platform/index.php(156): view('platform/home/h...')
+#3 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/u72057032...')
+#4 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('platform/home/h...', Array, true)
+#5 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Controllers/PlatformController.php(44): view('platform/index', Array)
+#6 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\PlatformController->index()
+#7 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlatformController))
+#8 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-30 15:57:48 --> Invalid file: platform/home/home.php
+#0 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('platform/home/h...')
+#1 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('platform/home/h...', Array, true)
+#2 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Views/platform/index.php(156): view('platform/home/h...')
+#3 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/u72057032...')
+#4 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('platform/home/h...', Array, true)
+#5 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Controllers/PlatformController.php(44): view('platform/index', Array)
+#6 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\PlatformController->index()
+#7 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlatformController))
+#8 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-30 15:58:37 --> Invalid file: platform/home/home.php
+#0 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('platform/home/h...')
+#1 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('platform/home/h...', Array, true)
+#2 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Views/platform/index.php(156): view('platform/home/h...')
+#3 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/u72057032...')
+#4 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('platform/home/h...', Array, true)
+#5 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Controllers/PlatformController.php(44): view('platform/index', Array)
+#6 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\PlatformController->index()
+#7 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlatformController))
+#8 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-30 16:01:36 --> Invalid file: platform/home/home.php
+#0 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('platform/home/h...')
+#1 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('platform/home/h...', Array, true)
+#2 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Views/platform/index.php(156): view('platform/home/h...')
+#3 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/u72057032...')
+#4 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('platform/home/h...', Array, true)
+#5 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Controllers/PlatformController.php(44): view('platform/index', Array)
+#6 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\PlatformController->index()
+#7 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlatformController))
+#8 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-30 16:27:46 --> Invalid file: website/study/quiz.php
+#0 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/study/q...')
+#1 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('website/study/q...', Array, true)
+#2 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Controllers/StudyController.php(35): view('website/study/q...', Array)
+#3 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\StudyController->quiz()
+#4 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudyController))
+#5 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-30 16:31:57 --> Invalid file: website/study/quiz.php
+#0 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/study/q...')
+#1 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('website/study/q...', Array, true)
+#2 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Controllers/StudyController.php(35): view('website/study/q...', Array)
+#3 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\StudyController->quiz()
+#4 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudyController))
+#5 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-30 16:32:10 --> Invalid file: website/study/quiz.php
+#0 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/study/q...')
+#1 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('website/study/q...', Array, true)
+#2 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Controllers/StudyController.php(35): view('website/study/q...', Array)
+#3 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\StudyController->quiz()
+#4 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudyController))
+#5 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-30 16:32:14 --> Invalid file: website/study/quiz.php
+#0 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/study/q...')
+#1 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('website/study/q...', Array, true)
+#2 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Controllers/StudyController.php(35): view('website/study/q...', Array)
+#3 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\StudyController->quiz()
+#4 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudyController))
+#5 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-30 16:41:17 --> Invalid file: website/study/quiz.php
+#0 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/study/q...')
+#1 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('website/study/q...', Array, true)
+#2 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Controllers/StudyController.php(35): view('website/study/q...', Array)
+#3 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\StudyController->quiz()
+#4 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudyController))
+#5 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-30 16:41:22 --> Invalid file: website/study/quiz.php
+#0 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/study/q...')
+#1 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('website/study/q...', Array, true)
+#2 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Controllers/StudyController.php(35): view('website/study/q...', Array)
+#3 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\StudyController->quiz()
+#4 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudyController))
+#5 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-30 18:40:22 --> Invalid file: website/study/quiz.php
+#0 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/study/q...')
+#1 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('website/study/q...', Array, true)
+#2 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Controllers/StudyController.php(35): view('website/study/q...', Array)
+#3 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\StudyController->quiz()
+#4 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudyController))
+#5 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

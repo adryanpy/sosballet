@@ -1,0 +1,9 @@
+CRITICAL - 2020-10-05 17:52:38 --> Invalid file: website/study/quiz.php
+#0 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('website/study/q...')
+#1 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('website/study/q...', Array, true)
+#2 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/app/Controllers/StudyController.php(35): view('website/study/q...', Array)
+#3 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\StudyController->quiz()
+#4 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudyController))
+#5 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u720570325/domains/ladeveloper.com.br/public_html/sosballet/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

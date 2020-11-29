@@ -1,0 +1,8 @@
+CRITICAL - 2020-07-28 17:10:12 --> syntax error, unexpected '" ?> alt="' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('index.php', Array, true)
+#1 C:\xampp\htdocs\cilujuravita\app\Controllers\Main.php(15): view('index.php')
+#2 C:\xampp\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Main->index()
+#3 C:\xampp\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 C:\xampp\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cilujuravita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,17 @@
+CRITICAL - 2020-08-07 17:01:14 --> Invalid file: pagina.php
+#0 C:\xampp\htdocs\cilujuravita\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagina.php')
+#1 C:\xampp\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('pagina.php', Array, true)
+#2 C:\xampp\htdocs\cilujuravita\app\Controllers\Main.php(27): view('pagina.php')
+#3 C:\xampp\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Main->index()
+#4 C:\xampp\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#5 C:\xampp\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cilujuravita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-07 17:24:50 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\cilujuravita\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\cilujuravita\app\Controllers\Main.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#2 C:\xampp\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Main->index()
+#3 C:\xampp\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 C:\xampp\htdocs\cilujuravita\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cilujuravita\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
